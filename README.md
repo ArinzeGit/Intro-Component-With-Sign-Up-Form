@@ -52,7 +52,7 @@ Users should be able to:
 
 ### What I learned
 
-- I learned the `Clearfix` CSS technique used to make parent elements wrap around their floating child elements to prevent their margins or paddings from affecting layout of subsequent elements. This technique creates a `HTML Pseudo-element` after all children of parent element using `::after` then uses CSS attributes `clear:both` and `display:table` or `display:block` to ensure it appears beneath the floating elements and takes up the entire viewport width. This pseudo-element is usually empty and its main purpose is to make the container wrap around it, thereby wrapping around the floating elements.
+- I learned the `Clearfix` CSS technique used to make parent elements wrap around their floating child elements to prevent their margins or paddings from affecting layout of subsequent elements. This technique creates a `HTML Pseudo-element` after all children of parent element using `::after`, then uses CSS attributes `clear:both` and `display:table` or `display:block` to ensure it appears beneath the floating elements and takes up the entire viewport width. This pseudo-element is usually empty and its main purpose is to make the container wrap around it, thereby wrapping around the floating child elements.
 
 ```css
 .clearfix::after {
@@ -62,7 +62,7 @@ Users should be able to:
 }
 ```
 
-- I learned `Regex` to use for my client side form validation. 'Regular expressions' are used for matching text strings. I learned the key concepts like patterns, metacharacters, quatifiers, character classes, anchors and grouping and capturing
+- I learned `Regex` for my client side form validation. 'Regular expressions' are used for matching text strings. I learned the key concepts like patterns, metacharacters, quatifiers, character classes, anchors and grouping and capturing
 
 ```js
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]{2,6}$/;
