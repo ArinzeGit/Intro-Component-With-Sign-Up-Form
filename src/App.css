@@ -1,0 +1,45 @@
+.App{
+    background-color: hsl(0, 100%, 74%);
+    background-image: url('assets/bg-intro-desktop.png');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.Flex1{
+    flex:1
+}
+
+.absolute{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color:  hsl(242, 99%, 37%);
+}
+
+@font-face {
+    font-family: poppingsLight;
+    src: url(assets/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: poppings;
+    src: url(assets/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppingsBold;
+    src: url(assets/Poppins-Bold.ttf)
+}
+
+@font-face {
+    font-family: poppingsItalic;
+    src: url(assets/Poppins-Italic.ttf)
+}

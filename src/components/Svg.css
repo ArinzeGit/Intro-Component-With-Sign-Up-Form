@@ -1,0 +1,6 @@
+.errorIconContainer {
+    position: absolute;
+    top: 27.5px;
+    right: 25px; /* Adjust as needed */
+    transform: translateY(-50%);
+}

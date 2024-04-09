@@ -1,0 +1,50 @@
+input.myFormStyle {
+    font-family: 'poppingsBold';
+    font-weight: 600;
+    padding: 16px 30px  ;
+    color:  hsl(249, 10%, 26%);
+    font-size: 14px;
+    
+}
+
+input.myFormStyle:focus {
+    
+    color:  hsl(249, 10%, 26%);
+    box-shadow: none;
+    border-color: hsl(248, 32%, 49%) !important;
+}
+
+button.myFormStyle {
+    font-family: 'poppings';
+    font-weight: 500;
+    padding: 15px 30px 10px 30px ;
+    color: hsl(249, 10%, 26%) ;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+a:hover{
+   cursor: pointer; 
+}
+
+div.myFormStyle{
+    margin-bottom: 21px;
+}
+
+.error{
+    color:hsl(0, 100%, 74%);
+    float: right;
+    font-family: 'poppingsItalic';
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+
+.inputContainer {
+    position: relative;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
