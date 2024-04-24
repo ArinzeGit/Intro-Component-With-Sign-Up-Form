@@ -5,20 +5,25 @@ import Intro from "./components/Intro";
 const App = () => {
   return (
     <>
-      <div className="App">
-        <div className="Flex1">
-          <Intro
-            title="Learn to code by watching others"
-            content="See how experienced developers solve problems in real-time. Watching
-              scripted tutorials is great, but understanding how developers think is
-              invaluable."
-          />
+      <main>
+        <div className="App">
+          <div className="Flex1">
+            <Intro
+              title="Learn to code by watching others"
+              content="See how experienced developers solve problems in real-time. Watching
+                scripted tutorials is great, but understanding how developers think is
+                invaluable."
+            />
+          </div>
+          <div className="Flex1">
+            <Alert
+              span1="Try it free 7 days "
+              span2="then $20/mo. thereafter"
+            />
+            <Form>CLAIM YOUR FREE TRIAL</Form>
+          </div>
         </div>
-        <div className="Flex1">
-          <Alert span1="Try it free 7 days " span2="then $20/mo. thereafter" />
-          <Form>CLAIM YOUR FREE TRIAL</Form>
-        </div>
-      </div>
+      </main>
       <footer className="absolute">
         <p className="attribution">
           Challenge by{" "}

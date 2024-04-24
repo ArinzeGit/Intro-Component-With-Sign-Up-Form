@@ -12,7 +12,7 @@ const Intro = ({ title, content }: Props) => {
         marginRight: "38px",
       }}
     >
-      <p
+      <h1
         style={{
           marginBottom: "28px",
           fontSize: "50px",
@@ -21,7 +21,7 @@ const Intro = ({ title, content }: Props) => {
         }}
       >
         {title}
-      </p>
+      </h1>
 
       <p
         style={{
