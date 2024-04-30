@@ -1,7 +1,8 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import "./Form.css";
-import Validation from "./Validation";
+import validateUserData from "../utils/validateUserData";
 import Svg from "./Svg";
+
 interface Props {
   children: string;
 }
@@ -25,11 +26,14 @@ const Form = ({ children }: Props) => {
     const newValues = { ...values, [event.target.name]: event.target.value };
     setValues(newValues);
   }
+
   const [errors, setErrors] = useState<Partial<ErrorProps>>({});
+
   function handleValidation(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    setErrors(Validation(values));
+    setErrors(validateUserData(values));
   }
+
   return (
     <div
       className="card"
@@ -41,11 +45,11 @@ const Form = ({ children }: Props) => {
     >
       <div className="card-body" style={{ padding: "39px" }}>
         <form onSubmit={handleValidation} noValidate>
-          <div className=" myFormStyle inputContainer clearfix">
+          <div className=" my-form-style input-container clearfix">
             <input
               type="text"
               name="firstName"
-              className="form-control myFormStyle"
+              className="form-control my-form-style"
               id="exampleInputFirstName"
               placeholder="First Name"
               onChange={handleInput}
@@ -58,11 +62,11 @@ const Form = ({ children }: Props) => {
             {errors.firstName && <p className="error ">{errors.firstName}</p>}
             {errors.firstName && <Svg />}
           </div>
-          <div className=" myFormStyle inputContainer clearfix">
+          <div className=" my-form-style input-container clearfix">
             <input
               type="text"
               name="lastName"
-              className="form-control myFormStyle"
+              className="form-control my-form-style"
               id="exampleInputLastName"
               placeholder="Last Name"
               onChange={handleInput}
@@ -75,11 +79,11 @@ const Form = ({ children }: Props) => {
             {errors.lastName && <p className="error ">{errors.lastName}</p>}
             {errors.lastName && <Svg />}
           </div>
-          <div className=" myFormStyle inputContainer clearfix">
+          <div className=" my-form-style input-container clearfix">
             <input
               type="email"
               name="email"
-              className="form-control myFormStyle"
+              className="form-control my-form-style"
               id="exampleInputEmail1"
               placeholder="Email Address"
               onChange={handleInput}
@@ -93,11 +97,11 @@ const Form = ({ children }: Props) => {
             {errors.email && <p className="error ">{errors.email}</p>}
             {errors.email && <Svg />}
           </div>
-          <div className=" myFormStyle inputContainer clearfix">
+          <div className=" my-form-style input-container clearfix">
             <input
               type="password"
               name="password"
-              className="form-control myFormStyle"
+              className="form-control my-form-style"
               id="exampleInputPassword1"
               placeholder="Password"
               onChange={handleInput}
@@ -113,7 +117,7 @@ const Form = ({ children }: Props) => {
 
           <button
             type="submit"
-            className="btn myFormStyle"
+            className="btn my-form-style"
             style={{
               backgroundColor: "hsl(154, 59%, 51%)",
               color: "white",

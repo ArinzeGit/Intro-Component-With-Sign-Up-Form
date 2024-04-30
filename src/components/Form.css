@@ -1,4 +1,4 @@
-input.myFormStyle {
+input.my-form-style {
     font-family: 'poppingsBold';
     font-weight: 600;
     padding: 16px 30px  ;
@@ -7,14 +7,14 @@ input.myFormStyle {
     
 }
 
-input.myFormStyle:focus {
+input.my-form-style:focus {
     
     color:  hsl(249, 10%, 26%);
     box-shadow: none;
     border-color: hsl(248, 32%, 49%) !important;
 }
 
-button.myFormStyle {
+button.my-form-style {
     font-family: 'poppings';
     font-weight: 500;
     padding: 15px 30px 10px 30px ;
@@ -27,7 +27,7 @@ a:hover{
    cursor: pointer; 
 }
 
-div.myFormStyle{
+div.my-form-style{
     margin-bottom: 21px;
 }
 
@@ -39,7 +39,7 @@ div.myFormStyle{
     margin-bottom: 4px;
 }
 
-.inputContainer {
+.input-container {
     position: relative;
 }
 

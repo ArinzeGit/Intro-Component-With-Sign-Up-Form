@@ -1,7 +1,7 @@
 import "./Svg.css";
 const Svg = () => {
   return (
-    <div className="errorIconContainer">
+    <div className="error-icon-container">
       {
         <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
           <g fill="none" fillRule="evenodd">

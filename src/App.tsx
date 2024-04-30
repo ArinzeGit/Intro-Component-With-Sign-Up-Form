@@ -6,8 +6,8 @@ const App = () => {
   return (
     <>
       <main>
-        <div className="App">
-          <div className="Flex1">
+        <div className="app">
+          <div className="flex1">
             <Intro
               title="Learn to code by watching others"
               content="See how experienced developers solve problems in real-time. Watching
@@ -15,7 +15,7 @@ const App = () => {
                 invaluable."
             />
           </div>
-          <div className="Flex1">
+          <div className="flex1">
             <Alert
               span1="Try it free 7 days "
               span2="then $20/mo. thereafter"

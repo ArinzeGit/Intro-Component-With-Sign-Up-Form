@@ -1,4 +1,4 @@
-.App{
+.app{
     background-color: hsl(0, 100%, 74%);
     background-image: url('assets/bg-intro-desktop.png');
     min-height: 100vh;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.Flex1{
+.flex1{
     flex:1
 }
 

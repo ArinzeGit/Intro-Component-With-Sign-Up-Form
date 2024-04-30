@@ -5,7 +5,7 @@ interface Props {
   password: string;
 }
 
-const Validation = ({ firstName, lastName, email, password }: Props) => {
+const validateUserData = ({ firstName, lastName, email, password }: Props) => {
   const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]{2,6}$/;
   const errors: Partial<Props> = {};
 
@@ -29,4 +29,4 @@ const Validation = ({ firstName, lastName, email, password }: Props) => {
   return errors;
 };
 
-export default Validation;
+export default validateUserData;
