@@ -2,22 +2,31 @@
     background-color: hsl(0, 100%, 74%);
     background-image: url('assets/bg-intro-desktop.png');
     min-height: 100vh;
+    overflow: hidden;
+}
+
+main{
     display: flex;
     align-items: center;
+    padding: 40px;
+    min-height: 100vh;
 }
 
 .flex1{
     flex:1
 }
 
-.absolute{
-    position:absolute;
-    bottom: 0;
-    width: 100%;
+.attribution-container{
+    position:relative;
 }
 
 .attribution {
+    margin:0;
+    position: absolute;
     font-size: 11px; text-align: center;
+    left:50%;
+    bottom:0.7rem;
+    transform: translate(-50%,0);
 }
 
 .attribution a {
