@@ -20,7 +20,7 @@ const App = () => {
         </div>
       </main>
       <footer className="attribution-container">
-        <p className="attribution">
+        <div className="attribution">
           Challenge by{" "}
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
             Frontend Mentor
@@ -30,7 +30,7 @@ const App = () => {
             Arinze Owoh
           </a>
           .
-        </p>
+        </div>
       </footer>
     </div>
   );

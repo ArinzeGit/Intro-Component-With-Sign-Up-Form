@@ -21,10 +21,8 @@ main{
 }
 
 .attribution {
-    margin:0;
     position: absolute;
     font-size: 11px;
-    text-align: center;
     left:50%;
     bottom:0.7rem;
     transform: translate(-50%,0);
