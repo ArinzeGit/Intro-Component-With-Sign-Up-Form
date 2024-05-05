@@ -1,7 +1,7 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import "./Form.css";
 import validateUserData from "../utils/validateUserData";
-import Svg from "./Svg";
+import ErrorIcon from "./ErrorIcon";
 
 interface Props {
   children: string;
@@ -60,7 +60,7 @@ const Form = ({ children }: Props) => {
               }}
             />
             {errors.firstName && <p className="error ">{errors.firstName}</p>}
-            {errors.firstName && <Svg />}
+            {errors.firstName && <ErrorIcon />}
           </div>
           <div className=" my-form-style input-container clearfix">
             <input
@@ -77,7 +77,7 @@ const Form = ({ children }: Props) => {
               }}
             />
             {errors.lastName && <p className="error ">{errors.lastName}</p>}
-            {errors.lastName && <Svg />}
+            {errors.lastName && <ErrorIcon />}
           </div>
           <div className=" my-form-style input-container clearfix">
             <input
@@ -95,7 +95,7 @@ const Form = ({ children }: Props) => {
               }}
             />
             {errors.email && <p className="error ">{errors.email}</p>}
-            {errors.email && <Svg />}
+            {errors.email && <ErrorIcon />}
           </div>
           <div className=" my-form-style input-container clearfix">
             <input
@@ -112,7 +112,7 @@ const Form = ({ children }: Props) => {
               }}
             />
             {errors.password && <p className="error ">{errors.password}</p>}
-            {errors.password && <Svg />}
+            {errors.password && <ErrorIcon />}
           </div>
 
           <button
