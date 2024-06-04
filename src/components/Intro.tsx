@@ -7,15 +7,12 @@ const Intro = ({ title, content }: Props) => {
     <div
       style={{
         color: "white",
-        width: "530px",
-        float: "right",
-        marginRight: "38px",
       }}
     >
       <h1
         style={{
-          marginBottom: "28px",
-          fontSize: "50px",
+          marginBottom: "0.56em",
+          fontSize: "3.12rem",
           fontFamily: "poppingsBold",
           lineHeight: "1.1em",
         }}
@@ -26,8 +23,9 @@ const Intro = ({ title, content }: Props) => {
       <p
         style={{
           fontFamily: "poppings",
-          fontSize: "16px",
+          fontSize: "1rem",
           lineHeight: "1.6em",
+          margin: "0",
         }}
       >
         {content}

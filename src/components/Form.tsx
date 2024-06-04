@@ -38,12 +38,12 @@ const Form = ({ children }: Props) => {
     <div
       className="card"
       style={{
-        width: "544px",
+        width: "100%",
         borderRadius: "10px",
         boxShadow: "0 9px 0 rgba(0, 0, 0, 0.2)",
       }}
     >
-      <div className="card-body" style={{ padding: "39px" }}>
+      <div className="card-body" style={{ padding: "2.44em" }}>
         <form onSubmit={handleValidation} noValidate>
           <div className=" my-form-style input-container clearfix">
             <input
@@ -132,9 +132,9 @@ const Form = ({ children }: Props) => {
           style={{
             fontFamily: "poppings",
             color: "hsl(246, 25%, 77%)",
-            fontSize: "11px",
+            fontSize: ".69rem",
             textAlign: "center",
-            marginBottom: "4px",
+            marginBottom: ".25rem",
           }}
         >
           By clicking the button, you are agreeing to our{" "}
