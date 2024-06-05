@@ -31,6 +31,8 @@ Users should be able to:
 
 ![Intro Component With Sign Up Form Screenshot1](/public/Intro%20Component%20With%20Sign%20Up%20Form%20Screenshot1.PNG)
 ![Intro Component With Sign Up Form Screenshot2](/public/Intro%20Component%20With%20Sign%20Up%20Form%20Screenshot2.PNG)
+![Intro Component With Sign Up Form Screenshot1-mobile](/public/Intro%20Component%20With%20Sign%20Up%20Form%20Screenshot1-mobile.PNG)
+![Intro Component With Sign Up Form Screenshot2-mobile](/public/Intro%20Component%20With%20Sign%20Up%20Form%20Screenshot2-mobile.PNG)
 
 ### Links
 
