@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: View the GitHub repository [here](https://github.com/ArinzeGit/Intro-Component-With-Sign-Up-Form)
-- Live Site URL: I have hosted the project on GitHub Pages [here](https://arinzegit.github.io/Intro-Component-With-Sign-Up-Form/)
+- [GitHub Repository](https://github.com/ArinzeGit/Intro-Component-With-Sign-Up-Form)
+- [Live Site URL](https://arinzegit.github.io/Intro-Component-With-Sign-Up-Form/)
 
 ## My process
 
