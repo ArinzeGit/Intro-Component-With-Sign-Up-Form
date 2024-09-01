@@ -1,6 +1,6 @@
 # Intro component with sign up form
 
-This is my solution to the ['Intro component with sign up form' challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help me improve my coding skills by building realistic projects.
+An engaging intro component featuring a sign-up form, built with React and TypeScript as part of the ['Intro component with sign up form' Frontend Mentor challenge](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). This project demonstrates my ability to create interactive UI components with form validation using React and TypeScript, focusing on user experience and robust client-side handling.
 
 ## Table of contents
 
