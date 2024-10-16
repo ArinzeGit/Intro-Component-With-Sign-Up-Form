@@ -1,6 +1,6 @@
 # Intro component with sign up form
 
-An engaging intro component featuring a sign-up form, built with `React` and `TypeScript`. This project demonstrates my ability to create interactive UI components with form validation using `React` and `TypeScript`, focusing on user experience and robust client-side handling. I got the design from the ['Intro component with sign up form' challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1).
+An engaging intro component featuring a sign-up form, built with `React` and `TypeScript`. I use `React hooks` like `useState` to manage state of the input values and errors. This project demonstrates my ability to create interactive UI components with form validation using `React` and `TypeScript`, focusing on user experience and robust client-side handling. I got the design from the ['Intro component with sign up form' challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1).
 
 ## Table of contents
 
